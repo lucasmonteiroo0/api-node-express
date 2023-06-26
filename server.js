@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 app.set('view engine', 'ejs');
 app.set('views', './views');
 app.get('/site2', (req, res) => {
-    res.render('index', { nome: 'Rommel Carneiro' });
+    res.render('index', { nome: 'Lucas Monteiro' });
 })
 
 
